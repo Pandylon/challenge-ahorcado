@@ -1,0 +1,116 @@
+body{
+    background: #777799;
+  }
+
+  .titulo {
+    padding: 15px;
+    width: 30vw;
+    margin: auto;
+  
+  }
+ h2{
+  position: absolute;
+  width: 228px;
+  height: 18px;
+  left: 300px;
+  top: 330px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+
+  color: #495057;
+  opacity: 0.8;
+ }
+ ::placeholder{
+   color:black;
+ }
+  #input-nueva-palabra {
+    position: absolute;
+    width: 228px;
+    height: 25px;
+    left: 300px;
+    top: 300px;
+
+    background: #777799;
+    border: 1px solid burlywood;
+    text-align: center;
+    
+  }
+  #btnIngresarPalabra{
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    left: 550px;
+    top: 290px;
+    text-align: center;
+  }
+
+  .btn{ border: 0.5px solid burlywood;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(153,102,153);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 0.5em;
+
+  }
+  #boton-inicio{
+    display: none;
+    position: absolute;
+    left: 640px;
+    top: 445px;
+
+
+  }
+
+  #letra{
+    position: absolute;
+    display: none;
+    text-align: center;
+    top: 465px;
+    left:40px;
+  }
+
+  #boton{
+    display: none;
+    position: absolute;
+    left:210px;
+    top: 445px;
+  }
+
+  #frase{
+    display: none;
+    font-size: 50px;
+    position: absolute;
+    left: 600px;
+    top: 250px;
+  }
+
+  canvas{
+    position: absolute;
+    height:250px;
+    width:400px ;
+    /*border: 2px solid steelblue;*/
+    /*display: none;**/
+   }
+   #vidas{
+    position: absolute;
+    display: none;
+    text-align: center;
+    top: 500px;
+    left:50px;
+   }
+
+
+  footer{
+
+    background-color:#777799;
+    width: 100%;
+    bottom:0px;
+    position: fixed;
+    text-align: center;
+  }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ahorcado</title>
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+    
+    <div style="text-align:center; margin: 50px 0px;">
+       
+        <h1 class="titulo">Ahorcado</h1>  
+    </div >
+     <section>
+      <h2 id="img" ><img src="img/bi_exclamation-circle-fill.png" id="exclamation">Solo letras mayúsculas y sin acentos </h2>
+       <input type="text" id="input-nueva-palabra" pattern="^[-A-Z-Ñ]+$"  placeholder="Ingrese una palabra" >
+      <input type="button" class="btn" id="btnIngresarPalabra"onclick="ingresePalbabra()" value="click" >
+      </section>
+  
+
+    <section>
+
+        <input type="button" class="btn"  id="boton-inicio" value="start">
+        <input type="text" id="letra"   placeholder="Ingrese una letra" maxlength="1"  >
+        <input type="button"class="btn"  id="boton" value="click">
+        <div id="frase"></div>
+        <div id="vidas"></div>
+        <div id="letras-usadas"></div>
+    </section>
+    
+    <div style="text-align:left;">
+      <canvas id="canvas" ></canvas>
+    </div>
+
+    <footer >
+        <p class="creacion">&copy Gerscovich Paula - 2022</p>
+    </footer>
+    <script type="text/javascript" src="canva.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
